@@ -17,3 +17,6 @@ then
 	exit 2
 fi]
 	
+# Checking memory
+free -m
+exit 0
