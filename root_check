@@ -16,4 +16,8 @@ then
 	echo "This is very small"
 	exit 2
 fi]
-exit 99	
+		
+# Checking memory
+free -m
+exit 0
+
